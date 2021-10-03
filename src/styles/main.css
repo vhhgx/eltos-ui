@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'iconfont';  /* Project id 2847387 */
+  src: url('//at.alicdn.com/t/font_2847387_wijwvmg5ngf.woff2?t=1633194465974') format('woff2'),
+	url('//at.alicdn.com/t/font_2847387_wijwvmg5ngf.woff?t=1633194465974') format('woff'),
+	url('//at.alicdn.com/t/font_2847387_wijwvmg5ngf.ttf?t=1633194465974') format('truetype');
+}
+
+.iconfont { font-family: "iconfont" !important; font-size: 17px; user-select: none; font-style: normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0.2px; -moz-osx-font-smoothing: grayscale; }
+
+
+@font-face { font-family: xqn; src: url("https://cdn.jsdelivr.net/gh/vhhgx/common/fonts/xqn.otf"); }
+.xqn { font-family: xqn; }
+
+
+.page-height { height: calc( 100vh - 32px ); }

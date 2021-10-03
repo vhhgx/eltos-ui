@@ -1,0 +1,12 @@
+body {
+	--h0: 34px;
+	--h1: 28px;
+	--h2: 24px;
+	--h3: 20px;
+	--text: 16px;
+	--info: 13px;
+
+	--bgcolor: #0050b3;
+	--white: #ffffff;
+	--padding: 16px;
+}
