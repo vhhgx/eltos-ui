@@ -27,13 +27,13 @@ export default {
 <style>
 .el-space { display: flex; flex-direction: column; margin: 12px 0;}
 .el-space .el-label-area { margin-bottom: 6px; }
-.el-space .el-label { font-size: 12px; color: #181A5A; }
+.el-space .el-label { font-size: 12px; color: var(--text); }
 /* 普通状态 */
-.el-input { border: 1px solid #E4E4EB; height: 28px; border-radius: 8px; width: auto; padding: 4px 12px; color: #181A5A; display: flex; }
+.el-input { border: 1px solid var(--border); height: 28px; border-radius: 8px; width: auto; padding: 4px 12px; color: var(--text); display: flex; }
 /* 激活状态 */
-.el-input:focus { outline: none; border: 1px solid #8967EA; background-color: #F5F1FF; }
+.el-input:focus { outline: none; border: 1px solid var(--primary-light); background-color: var(primary-border); }
 /* 错误状态 */
-.el-input-error { border: 1px solid #E25966; background-color: #FEF1F2; }
+.el-input-error { border: 1px solid var(--error); background-color: var(--error-light); }
 /* 预输入 */
-::-webkit-input-placeholder { color:#999; }
+::-webkit-input-placeholder { color: var(--info); }
 </style>

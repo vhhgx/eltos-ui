@@ -2,8 +2,7 @@
   <div class="page-height flex column">
     <PageHead title="Eltos UI" intro="一个美观的css组件库"></PageHead>
     <div class="main-box">
-      <EltInput title="用户名" holder="请输入用户名"></EltInput>
-      <EltInput title="密码" holder="这是错误状态" :isCorrect="true" type="password"></EltInput>
+      <elt-input title="用户名" holder="请输入用户名"></elt-input>
 
       <div style="margin: 16px 0; background-color: #F1FAFF; padding: 16px; border-radius: 8px;">
         <span style="font-size: var(--info); color: #8c8c8c; ">
@@ -12,16 +11,7 @@
         </span>
       </div>
 
-
-      <button class="el-button" style="background-color: #5F30E2;">普通按钮</button>
-      <button class="el-button" style="background-color: #E25966;">危险按钮</button>
-      <button class="el-button" style="background-color: #E6A23C;">警告按钮</button>
-      <button class="el-button" style="background-color: #F9F9FB; color: #494B7D;">层级稍弱</button>
-      <br><br>
-
-      <button class="el-button" style="background-color: #5F30E2; border-radius: 20px;">普通圆角</button>
-      <button class="el-button" style="border: 1px solid #E4E4EB; background-color: #ffff ; color: #000;">普通线框</button>
-      
+      <elt-button type="warning" @click="text()"></elt-button>
 
     </div>
   </div>
@@ -31,6 +21,7 @@
 import PageHead from '@/pages/PageHead'
 import Navigation from '@/pages/Navigation'
 import EltInput from '@/eltos/elt-input'
+import EltButton from '@/eltos/elt-button'
 
 export default {
   data() {
@@ -38,9 +29,13 @@ export default {
   },
   mounted() { },
   components: {
-    PageHead, Navigation, EltInput,
+    PageHead, Navigation, EltInput, EltButton
   },
-  methods: { }
+  methods: {
+    text() {
+      console.log('aa')
+    }
+  }
 }
 </script>
 
@@ -49,5 +44,5 @@ export default {
 li { font-size: var(--info); color: #8c8c8c }
 code { margin: 0 2px;}
 
-.el-button { outline: none; border: none; height: 38px; border-radius: 8px; padding: 4px 20px; color: #ffffff; }
+
 </style>

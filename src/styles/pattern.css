@@ -1,4 +1,4 @@
-body {
+:root {
 	--h0: 34px;
 	--h1: 28px;
 	--h2: 24px;
@@ -9,4 +9,18 @@ body {
 	--bgcolor: #0050b3;
 	--white: #ffffff;
 	--padding: 16px;
+
+	--text: #03054a;
+	--info: #999999;
+	--border: #e4e4eb;
+	--light: #f5f5f5;
+	--primary: #5f30e2;
+	--primary-info: #5c5d8a;
+	--primary-desc: #714cdb;
+	--primary-light: #8967ea;
+	--primary-border: #f5f1ff;
+	--error: #e25966;
+	--error-light: #fef1f2;
+	--warning: #e6a23c;
+	--warning-light: #fff4e4;
 }
