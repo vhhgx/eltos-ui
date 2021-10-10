@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'din';
+	src: url("https://cdn.jsdelivr.net/gh/ElyhG/cdn/fonts/din/din.ttf");
+}
+
+.din { font-family: din; }
+
+a { text-decoration:none; -webkit-tap-highlight-color:rgba(0,0,0,0);  }
+
+li { list-style-type:none; }
+li::before { content: "·"; margin-right: 12px; font-weight: bolder; font-weight: 36px;}
+
+:root {
+	--main-margin: 24px;
+}
+
+
+body { font-family: Avenir, Helvetica, Arial, sans-serif; }

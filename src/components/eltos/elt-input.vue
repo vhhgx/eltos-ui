@@ -3,7 +3,7 @@
 		<div class="el-label-area">
 			<label for="input" class="el-label">{{title}}</label>
 		</div>
-		<input id="input" :type="type" :class="[{ 'el-input-error': isCorrect }, 'el-input']" :placeholder="holder">
+		<input id="input" :type="type" :class="[{ 'el-input-error': isError }, 'el-input']" :placeholder="holder">
 	</div>
 </template>
 
@@ -16,7 +16,7 @@ export default {
 		title: { type: String, default: '' },
 		holder: { type: String, default: '' },
 		type: { type: String, default: 'text' },
-		isCorrect: { type: Boolean, default: false }
+		isError: { type: Boolean, default: false }
   },
   methods: {
     
